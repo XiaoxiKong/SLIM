@@ -1,0 +1,29 @@
+name: slim
+channels:
+  - pytorch
+  - nvidia
+  - conda-forge
+dependencies:
+  - python=3.10
+  - pip
+  - pytorch=2.5.1
+  - torchvision=0.20.1
+  - pytorch-cuda=12.4
+  - numpy
+  - scipy
+  - pillow
+  - opencv
+  - pip:
+      - accelerate==1.6.0
+      - datasets==2.14.5
+      - diffusers==0.29.2
+      - ftfy
+      - huggingface_hub
+      - kornia
+      - lpips
+      - omegaconf
+      - packaging
+      - peft==0.15.2
+      - torchsummary
+      - tqdm
+      - transformers==4.51.3
