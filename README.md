@@ -54,8 +54,8 @@ LoRA weights are saved under `<output_dir>/checkpoint-<step>/lora_weights.pth`.
 ```bash
 python scripts/inference.py \
   --model_id runwayml/stable-diffusion-v1-5 \
-  --checkpoint_path ./output/stage1/checkpoints/state_dict_39.pth \
-  --lora_path ./output/checkpoint-500/lora_weights.pth \
+  --checkpoint_path ./output/stage1/checkpoints/xxx.pth \
+  --lora_path ./output/checkpoint-xxx/lora_weights.pth \
   --output_dir ./output/inference \
   --bit_num 48
 ```
